@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/travel_log_db
+    username: username
+    password: password
+
+  liquibase:
+    change-log: classpath:/db/changelog/changelog-master.xml
+    enabled: true
+server:
+  port: 8080

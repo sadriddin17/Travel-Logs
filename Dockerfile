@@ -1,0 +1,1 @@
+docker run -d -p 5432:5432 --name postgres15 -e POSTGRES_USER=username -e POSTGRES_PASSWORD=password -e POSTGRES_DB=travel_log_db postgres:15

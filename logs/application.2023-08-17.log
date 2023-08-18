@@ -1,0 +1,693 @@
+2023-08-17 19:50:57.497 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 19460 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 19:50:57.499 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 19:50:57.914 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 19:50:57.927 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 19:50:58.394 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 19:50:58.398 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 19:50:58.399 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 19:50:58.400 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 19:50:58.472 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 19:50:58.472 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 934 ms
+2023-08-17 19:50:58.573 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 19:50:58.678 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@193eb1ba
+2023-08-17 19:50:58.679 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 19:50:58.774 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 19:50:58.878 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 19:50:59.014 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 19:50:59.020 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 19:50:59.600 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 19:50:59.620 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 19:50:59.626 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 2.526 seconds (process running for 3.198)
+2023-08-17 22:02:23.621 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:02:23.632 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:02:34.637 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 27604 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:02:34.639 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:02:35.165 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:02:35.195 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:02:35.828 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:02:35.832 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:02:35.833 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:02:35.834 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:02:35.907 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:02:35.908 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1230 ms
+2023-08-17 22:02:36.022 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:02:36.136 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@32a72c4
+2023-08-17 22:02:36.138 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:02:36.250 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:02:36.367 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:02:36.523 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:02:36.530 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:02:37.266 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:02:37.288 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:02:37.295 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 3.172 seconds (process running for 3.982)
+2023-08-17 22:02:52.836 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:02:52.836 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:02:52.837 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-17 22:02:52.869 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: No primary or single unique constructor found for interface org.springframework.http.HttpRequest] with root cause
+java.lang.IllegalStateException: No primary or single unique constructor found for interface org.springframework.http.HttpRequest
+	at org.springframework.beans.BeanUtils.getResolvableConstructor(BeanUtils.java:268)
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.createAttribute(ModelAttributeMethodProcessor.java:221)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletModelAttributeMethodProcessor.createAttribute(ServletModelAttributeMethodProcessor.java:85)
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:149)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-17 22:07:56.055 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:07:56.059 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:08:00.588 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 6880 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:08:00.590 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:08:01.073 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:08:01.092 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:08:01.679 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:08:01.691 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:08:01.692 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:08:01.693 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:08:01.756 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:08:01.758 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1132 ms
+2023-08-17 22:08:01.841 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:08:01.936 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e243175
+2023-08-17 22:08:01.938 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:08:02.014 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:08:02.096 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:08:02.242 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:08:02.247 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:08:02.917 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:08:02.933 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:08:02.940 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 2.729 seconds (process running for 3.226)
+2023-08-17 22:08:11.234 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:08:11.235 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:08:11.235 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-08-17 22:08:11.321 [http-nio-8080-exec-2] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"b30cf0ac-7a0d-460c-bd3b-5da790bb5162","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:08:11.311219900"}
+2023-08-17 22:08:11.342 [http-nio-8080-exec-2] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":31,"requestId":"b30cf0ac-7a0d-460c-bd3b-5da790bb5162","type":"response","body":"Cannot invoke \"java.lang.Long.longValue()\" because \"this.id\" is null","timestamp":"2023-08-17T22:08:11.342295900","status":"NOT_IMPLEMENTED"}
+2023-08-17 22:08:11.347 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Cannot invoke "java.lang.Long.longValue()" because "this.id" is null] with root cause
+java.lang.RuntimeException: Cannot invoke "java.lang.Long.longValue()" because "this.id" is null
+	at uz.hayot.odoreport.aspect.ControllerLoggingAspect.beforeCreateTravelLogExecution(ControllerLoggingAspect.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at uz.hayot.odoreport.controller.TravelLogController$$SpringCGLIB$$0.createTravelLog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-17 22:15:58.560 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:15:58.564 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:16:04.097 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 21168 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:16:04.100 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:16:04.673 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:16:04.694 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:16:05.582 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:16:05.599 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:16:05.602 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:16:05.602 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:16:05.713 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:16:05.713 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1579 ms
+2023-08-17 22:16:05.865 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:16:06.014 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@443a53df
+2023-08-17 22:16:06.016 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:16:06.107 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:16:06.232 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:16:06.437 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:16:06.444 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:16:07.294 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:16:07.317 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:16:07.327 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 3.606 seconds (process running for 4.164)
+2023-08-17 22:16:11.658 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:16:11.659 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:16:11.660 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-17 22:16:11.741 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"12958601-861a-4129-901c-ce1ed010a063","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:16:11.730905200"}
+2023-08-17 22:16:11.752 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":20,"requestId":"12958601-861a-4129-901c-ce1ed010a063","type":"response","body":"The getKey method should only be used when a single key is returned. The current key entry contains multiple keys: [{id=13, created_date=2023-08-17, modified_date=2023-08-17, vehicle_registration_number=AA777A, vehicle_owner_name=Corvo Attano, odo_start=100000, odo_end=100030, route=Aybek-Yunusabad, description=Traveled in the rain}]","timestamp":"2023-08-17T22:16:11.751905100","status":"NOT_IMPLEMENTED"}
+2023-08-17 22:16:11.756 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: The getKey method should only be used when a single key is returned. The current key entry contains multiple keys: [{id=13, created_date=2023-08-17, modified_date=2023-08-17, vehicle_registration_number=AA777A, vehicle_owner_name=Corvo Attano, odo_start=100000, odo_end=100030, route=Aybek-Yunusabad, description=Traveled in the rain}]] with root cause
+java.lang.RuntimeException: The getKey method should only be used when a single key is returned. The current key entry contains multiple keys: [{id=13, created_date=2023-08-17, modified_date=2023-08-17, vehicle_registration_number=AA777A, vehicle_owner_name=Corvo Attano, odo_start=100000, odo_end=100030, route=Aybek-Yunusabad, description=Traveled in the rain}]
+	at uz.hayot.odoreport.aspect.ControllerLoggingAspect.beforeCreateTravelLogExecution(ControllerLoggingAspect.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at uz.hayot.odoreport.controller.TravelLogController$$SpringCGLIB$$0.createTravelLog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-17 22:16:56.426 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:16:56.431 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:17:01.050 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 11072 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:17:01.052 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:17:01.696 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:17:01.723 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:17:02.346 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:17:02.352 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:17:02.354 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:17:02.354 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:17:02.437 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:17:02.438 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1330 ms
+2023-08-17 22:17:02.570 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:17:02.693 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35eee641
+2023-08-17 22:17:02.695 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:17:02.800 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:17:02.931 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:17:03.108 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:17:03.114 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:17:03.970 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:17:04.004 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:17:04.012 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 3.726 seconds (process running for 5.164)
+2023-08-17 22:17:08.205 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:17:08.205 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:17:08.206 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-17 22:17:08.341 [http-nio-8080-exec-2] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"628e716a-a643-491e-9a48-ce9822534070","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:17:08.325942200"}
+2023-08-17 22:18:10.024 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s226ms747µs100ns).
+2023-08-17 22:18:10.027 [http-nio-8080-exec-2] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":61701,"requestId":"628e716a-a643-491e-9a48-ce9822534070","type":"response","body":"The getKey method should only be used when a single key is returned. The current key entry contains multiple keys: [{id=14, created_date=2023-08-17, modified_date=2023-08-17, vehicle_registration_number=AA777A, vehicle_owner_name=Corvo Attano, odo_start=100000, odo_end=100030, route=Aybek-Yunusabad, description=Traveled in the rain}]","timestamp":"2023-08-17T22:18:10.027824300","status":"NOT_IMPLEMENTED"}
+2023-08-17 22:18:10.032 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: The getKey method should only be used when a single key is returned. The current key entry contains multiple keys: [{id=14, created_date=2023-08-17, modified_date=2023-08-17, vehicle_registration_number=AA777A, vehicle_owner_name=Corvo Attano, odo_start=100000, odo_end=100030, route=Aybek-Yunusabad, description=Traveled in the rain}]] with root cause
+java.lang.RuntimeException: The getKey method should only be used when a single key is returned. The current key entry contains multiple keys: [{id=14, created_date=2023-08-17, modified_date=2023-08-17, vehicle_registration_number=AA777A, vehicle_owner_name=Corvo Attano, odo_start=100000, odo_end=100030, route=Aybek-Yunusabad, description=Traveled in the rain}]
+	at uz.hayot.odoreport.aspect.ControllerLoggingAspect.beforeCreateTravelLogExecution(ControllerLoggingAspect.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at uz.hayot.odoreport.controller.TravelLogController$$SpringCGLIB$$0.createTravelLog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-17 22:19:11.814 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:19:11.818 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:19:15.548 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 4472 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:19:15.550 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:19:15.962 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:19:15.975 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:19:16.419 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:19:16.423 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:19:16.425 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:19:16.425 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:19:16.488 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:19:16.488 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 908 ms
+2023-08-17 22:19:16.576 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:19:16.671 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e243175
+2023-08-17 22:19:16.673 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:19:16.754 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:19:16.838 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:19:16.986 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:19:16.991 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:19:17.650 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:19:17.667 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:19:17.674 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 2.517 seconds (process running for 3.013)
+2023-08-17 22:19:22.760 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:19:22.760 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:19:22.766 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-08-17 22:19:22.929 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"cad9ded2-7597-4789-aeb6-0c9a436a390d","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:19:22.913791"}
+2023-08-17 22:19:22.944 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":31,"requestId":"cad9ded2-7597-4789-aeb6-0c9a436a390d","type":"response","body":"The getKey method should only be used when a single key is returned. The current key entry contains multiple keys: [{id=15, created_date=2023-08-17, modified_date=2023-08-17, vehicle_registration_number=AA777A, vehicle_owner_name=Corvo Attano, odo_start=100000, odo_end=100030, route=Aybek-Yunusabad, description=Traveled in the rain}]","timestamp":"2023-08-17T22:19:22.944824900","status":"NOT_IMPLEMENTED"}
+2023-08-17 22:19:22.950 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: The getKey method should only be used when a single key is returned. The current key entry contains multiple keys: [{id=15, created_date=2023-08-17, modified_date=2023-08-17, vehicle_registration_number=AA777A, vehicle_owner_name=Corvo Attano, odo_start=100000, odo_end=100030, route=Aybek-Yunusabad, description=Traveled in the rain}]] with root cause
+java.lang.RuntimeException: The getKey method should only be used when a single key is returned. The current key entry contains multiple keys: [{id=15, created_date=2023-08-17, modified_date=2023-08-17, vehicle_registration_number=AA777A, vehicle_owner_name=Corvo Attano, odo_start=100000, odo_end=100030, route=Aybek-Yunusabad, description=Traveled in the rain}]
+	at uz.hayot.odoreport.aspect.ControllerLoggingAspect.beforeCreateTravelLogExecution(ControllerLoggingAspect.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at uz.hayot.odoreport.controller.TravelLogController$$SpringCGLIB$$0.createTravelLog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-17 22:21:38.020 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:21:38.025 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:21:41.594 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 364 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:21:41.597 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:21:42.151 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:21:42.167 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:21:42.645 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:21:42.657 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:21:42.658 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:21:42.658 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:21:42.723 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:21:42.723 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1078 ms
+2023-08-17 22:21:42.813 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:21:42.908 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@443a53df
+2023-08-17 22:21:42.910 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:21:43.000 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:21:43.094 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:21:43.230 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:21:43.234 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:21:43.958 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:21:43.976 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:21:43.983 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 2.874 seconds (process running for 3.377)
+2023-08-17 22:21:51.929 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:21:51.929 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:21:51.930 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-17 22:21:52.008 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"7df91f9e-7b8a-45fc-84ef-12cabfa1cf6b","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:21:51.997326700"}
+2023-08-17 22:21:52.019 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":22,"requestId":"7df91f9e-7b8a-45fc-84ef-12cabfa1cf6b","type":"response","body":"MonoJust","timestamp":"2023-08-17T22:21:52.019398900","status":"CREATED"}
+2023-08-17 22:21:59.462 [http-nio-8080-exec-4] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"5cd28f17-d14b-433a-86c4-fe6f446ce027","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:21:59.462028200"}
+2023-08-17 22:21:59.476 [http-nio-8080-exec-4] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":14,"requestId":"5cd28f17-d14b-433a-86c4-fe6f446ce027","type":"response","body":"MonoJust","timestamp":"2023-08-17T22:21:59.476845400","status":"CREATED"}
+2023-08-17 22:21:59.846 [http-nio-8080-exec-5] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"958692aa-ceaa-4fd2-9992-6c99fefc9364","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:21:59.846486900"}
+2023-08-17 22:21:59.849 [http-nio-8080-exec-5] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":2,"requestId":"958692aa-ceaa-4fd2-9992-6c99fefc9364","type":"response","body":"MonoJust","timestamp":"2023-08-17T22:21:59.849483200","status":"CREATED"}
+2023-08-17 22:22:00.598 [http-nio-8080-exec-6] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"159cd96f-dd35-4c52-ab03-066bdab7445b","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:22:00.598529900"}
+2023-08-17 22:22:00.601 [http-nio-8080-exec-6] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":2,"requestId":"159cd96f-dd35-4c52-ab03-066bdab7445b","type":"response","body":"MonoJust","timestamp":"2023-08-17T22:22:00.601527","status":"CREATED"}
+2023-08-17 22:22:01.291 [http-nio-8080-exec-7] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"813d44a2-4f9d-4d42-a6be-f816ec7cfa11","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:22:01.291769400"}
+2023-08-17 22:22:01.304 [http-nio-8080-exec-7] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":13,"requestId":"813d44a2-4f9d-4d42-a6be-f816ec7cfa11","type":"response","body":"MonoJust","timestamp":"2023-08-17T22:22:01.304903200","status":"CREATED"}
+2023-08-17 22:22:01.709 [http-nio-8080-exec-8] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"df81f750-ee34-41f2-bd05-d71ee2f091e2","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:22:01.709167900"}
+2023-08-17 22:22:01.712 [http-nio-8080-exec-8] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":3,"requestId":"df81f750-ee34-41f2-bd05-d71ee2f091e2","type":"response","body":"MonoJust","timestamp":"2023-08-17T22:22:01.712170700","status":"CREATED"}
+2023-08-17 22:32:41.414 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:32:41.418 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:32:46.601 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 6008 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:32:46.603 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:32:47.055 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:32:47.068 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:32:47.518 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:32:47.523 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:32:47.523 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:32:47.524 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:32:47.586 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:32:47.587 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 953 ms
+2023-08-17 22:32:47.677 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:32:47.780 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e243175
+2023-08-17 22:32:47.782 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:32:47.879 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:32:47.986 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:32:48.173 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:32:48.180 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:32:48.958 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:32:48.977 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:32:48.984 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 2.889 seconds (process running for 3.515)
+2023-08-17 22:32:58.119 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:32:58.119 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:32:58.120 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-17 22:32:58.209 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"55f92ad4-f8ff-46c6-93cb-b1b4fc7f68f6","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:32:58.197127700"}
+2023-08-17 22:32:58.242 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":44,"requestId":"55f92ad4-f8ff-46c6-93cb-b1b4fc7f68f6","type":"response","body":"TravelLogPojo[id=22, vehicleRegistrationNumber=AA777A, VehicleOwnerName=Corvo Attano, route=Aybek-Yunusabad, description=Traveled in the rain]","timestamp":"2023-08-17T22:32:58.241509500","status":"CREATED"}
+2023-08-17 22:39:29.034 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:39:29.038 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:39:34.700 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 9992 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:39:34.703 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:39:35.249 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:39:35.263 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:39:35.719 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:39:35.724 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:39:35.725 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:39:35.725 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:39:35.800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:39:35.800 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1044 ms
+2023-08-17 22:39:35.894 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:39:35.996 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e243175
+2023-08-17 22:39:35.998 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:39:36.085 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:39:36.170 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:39:36.326 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:39:36.332 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:39:37.036 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:39:37.055 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:39:37.062 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 2.811 seconds (process running for 3.333)
+2023-08-17 22:39:52.664 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:39:52.664 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:39:52.665 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-17 22:39:52.747 [http-nio-8080-exec-2] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"c9cfd64e-32e2-42e3-82c5-ac99100e264a","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:39:52.737203900"}
+2023-08-17 22:39:52.781 [http-nio-8080-exec-2] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":44,"requestId":"c9cfd64e-32e2-42e3-82c5-ac99100e264a","type":"response","body":"TravelLogPojo[id=23, vehicleRegistrationNumber=AA777A, VehicleOwnerName=Corvo Attano, route=Aybek-Yunusabad, description=Traveled in the rain]","timestamp":"2023-08-17T22:39:52.781637800","status":"CREATED"}
+2023-08-17 22:39:55.336 [http-nio-8080-exec-3] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"9a4b5238-b319-4b0c-8de3-43e11a811035","service":"OdoReport","remote":"127.0.0.1","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","uri":"/api/travel-logs","timestamp":"2023-08-17T22:39:55.336804500"}
+2023-08-17 22:39:55.350 [http-nio-8080-exec-3] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":14,"requestId":"9a4b5238-b319-4b0c-8de3-43e11a811035","type":"response","body":"TravelLogPojo[id=24, vehicleRegistrationNumber=AA777A, VehicleOwnerName=Corvo Attano, route=Aybek-Yunusabad, description=Traveled in the rain]","timestamp":"2023-08-17T22:39:55.350988300","status":"CREATED"}
+2023-08-17 22:41:15.500 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:41:15.506 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:41:19.301 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 4908 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:41:19.303 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:41:19.764 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:41:19.778 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:41:20.239 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:41:20.244 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:41:20.245 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:41:20.246 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:41:20.313 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:41:20.314 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 973 ms
+2023-08-17 22:41:20.404 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:41:20.500 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c33da7a
+2023-08-17 22:41:20.501 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:41:20.581 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:41:20.668 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:41:20.813 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:41:20.817 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:41:21.532 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:41:21.551 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:41:21.558 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 2.684 seconds (process running for 3.408)
+2023-08-17 22:41:23.008 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:41:23.009 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:41:23.012 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-08-17 22:41:23.112 [http-nio-8080-exec-2] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"4d54fd7d-50b2-43d5-9224-9cf274b6639d","service":"OdoReport","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=AA777A, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","remote":"127.0.0.1","uri":"/api/travel-logs","timestamp":"2023-08-17T22:41:23.095530100"}
+2023-08-17 22:41:23.155 [http-nio-8080-exec-2] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":59,"requestId":"4d54fd7d-50b2-43d5-9224-9cf274b6639d","type":"response","body":"TravelLogPojo[id=25, vehicleRegistrationNumber=AA777A, VehicleOwnerName=Corvo Attano, route=Aybek-Yunusabad, description=Traveled in the rain]","timestamp":"2023-08-17T22:41:23.155028300","status":"CREATED"}
+2023-08-17 22:41:44.984 [http-nio-8080-exec-3] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"c7d22696-5375-42fc-9a9b-54a0a32a7f83","service":"OdoReport","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=null, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","remote":"127.0.0.1","uri":"/api/travel-logs","timestamp":"2023-08-17T22:41:44.984206800"}
+2023-08-17 22:41:44.985 [http-nio-8080-exec-3] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":0,"requestId":"c7d22696-5375-42fc-9a9b-54a0a32a7f83","type":"response","body":"vehicle registration number cannot be blank!","timestamp":"2023-08-17T22:41:44.985204100","status":"NOT_IMPLEMENTED"}
+2023-08-17 22:41:44.989 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: vehicle registration number cannot be blank!] with root cause
+java.lang.RuntimeException: vehicle registration number cannot be blank!
+	at uz.hayot.odoreport.aspect.ControllerLoggingAspect.beforeCreateTravelLogExecution(ControllerLoggingAspect.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at uz.hayot.odoreport.controller.TravelLogController$$SpringCGLIB$$0.createTravelLog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-17 22:46:36.234 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 22:46:36.239 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-17 22:47:03.062 [main] INFO  u.h.odoreport.OdoReportApplication - Starting OdoReportApplication using Java 17.0.3 with PID 24616 (C:\Users\Sadriddin\IdeaProjects\OdoReport\build\classes\java\main started by ssirojiddinov in C:\Users\Sadriddin\IdeaProjects\OdoReport)
+2023-08-17 22:47:03.065 [main] INFO  u.h.odoreport.OdoReportApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 22:47:03.812 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 22:47:03.834 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2023-08-17 22:47:04.402 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 22:47:04.407 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:47:04.408 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-17 22:47:04.408 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 22:47:04.490 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-17 22:47:04.490 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1382 ms
+2023-08-17 22:47:04.579 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-17 22:47:04.671 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@467045c4
+2023-08-17 22:47:04.672 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-17 22:47:04.760 [main] INFO  liquibase.database - Set default schema name to public
+2023-08-17 22:47:04.850 [main] INFO  liquibase.changelog - Reading resource: db/changelog/changes/00-init.xml
+2023-08-17 22:47:04.990 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-08-17 22:47:04.994 [main] INFO  liquibase.executor - Changelog query completed.
+2023-08-17 22:47:05.704 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 22:47:05.725 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 22:47:05.731 [main] INFO  u.h.odoreport.OdoReportApplication - Started OdoReportApplication in 3.287 seconds (process running for 4.106)
+2023-08-17 22:47:09.413 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 22:47:09.413 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-17 22:47:09.414 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-17 22:47:09.487 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"method":"POST","requestId":"27255e91-9cf7-42e3-8282-dea784a0813c","service":"OdoReport","type":"request","body":"TravelLogDTO[vehicleRegistrationNumber=null, vehicleOwnerName=Corvo Attano, odoStart=100000, odoEnd=100030, route=Aybek-Yunusabad, description=Traveled in the rain]","remote":"127.0.0.1","uri":"/api/travel-logs","timestamp":"2023-08-17T22:47:09.478414"}
+2023-08-17 22:47:09.489 [http-nio-8080-exec-1] INFO  u.h.o.aspect.ControllerLoggingAspect - {"duration":10,"requestId":"27255e91-9cf7-42e3-8282-dea784a0813c","type":"response","body":"vehicle registration number cannot be blank!","timestamp":"2023-08-17T22:47:09.489413900","status":"NOT_IMPLEMENTED"}
+2023-08-17 23:00:11.650 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-17 23:00:11.655 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

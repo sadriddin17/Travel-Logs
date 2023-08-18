@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <property name="now" value="NOW()" dbms="postgresql"/>
+    <!-- for sequences-->
+
+    <changeSet id="create-travel-log-table" author="Sadriddin">
+        <createTable tableName="travel_log">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="created_date" type="DATE" defaultValueDate="CURRENT_TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+            <column name="modified_date" type="DATE" defaultValueDate="CURRENT_TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+            <column name="vehicle_registration_number" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="vehicle_owner_name" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="odo_start" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="odo_end" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="route" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="VARCHAR(100)" defaultValue="">
+            </column>
+        </createTable>
+
+        <insert tableName="travel_log">
+            <column name="vehicle_registration_number" value="ABC123"/>
+            <column name="vehicle_owner_name" value="John Doe"/>
+            <column name="odo_start" value="10000"/>
+            <column name="odo_end" value="10200"/>
+            <column name="route" value="Tallinn-Rakvere"/>
+            <column name="description" value="Business trip"/>
+        </insert>
+
+        <insert tableName="travel_log">
+            <column name="vehicle_registration_number" value="ABC123"/>
+            <column name="vehicle_owner_name" value="Anna Karenina"/>
+            <column name="odo_start" value="10200"/>
+            <column name="odo_end" value="10800"/>
+            <column name="route" value="Tallinn-Rakvere"/>
+            <column name="description" value="private trip"/>
+        </insert>
+
+        <insert tableName="travel_log">
+            <column name="vehicle_registration_number" value="ABC123"/>
+            <column name="vehicle_owner_name" value="John Doe"/>
+            <column name="odo_start" value="10800"/>
+            <column name="odo_end" value="11400"/>
+            <column name="route" value="Tallinn-Rakvere"/>
+            <column name="description" value="Business trip"/>
+        </insert>
+
+        <insert tableName="travel_log">
+            <column name="vehicle_registration_number" value="ABC777"/>
+            <column name="vehicle_owner_name" value="Jordan Leo"/>
+            <column name="odo_start" value="20000"/>
+            <column name="odo_end" value="20200"/>
+            <column name="route" value="Tallinn-Rakvere"/>
+            <column name="description" value="Business trip"/>
+        </insert>
+
+        <insert tableName="travel_log">
+            <column name="vehicle_registration_number" value="ABC444"/>
+            <column name="vehicle_owner_name" value="Anna Karenina"/>
+            <column name="odo_start" value="110000"/>
+            <column name="odo_end" value="111200"/>
+            <column name="route" value="Tallinn-Rakvere"/>
+            <column name="description" value="Business trip"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
