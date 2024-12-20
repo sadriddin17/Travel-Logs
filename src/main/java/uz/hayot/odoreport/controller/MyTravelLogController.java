@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/travel-logs")
 //@Api(tags = "Travel Log APIs")
-public class TravelLogController {
+public class MyTravelLogController {
     private final TravelLogService travelLogService;
 
     public TravelLogController(TravelLogService travelLogService) {
