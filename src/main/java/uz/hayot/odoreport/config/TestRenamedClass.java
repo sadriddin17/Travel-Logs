@@ -1,5 +1,5 @@
 package uz.hayot.odoreport.config;
 
-public class TestClass {
+public class TestRenamedClass {
     //test content not it is modified
 }
